@@ -5,9 +5,17 @@ function startBrowseTimer(){
 }
 
 function browseTimer(){
-	if (timerCount >= 10){
-		chiisai = "\nYou've been here for too long!\nTyron has woken from his sleep and he'll slowly devour the website.";
+	if (timerCount == 100000){
+		chiisai = "<br>You've been here for too long! Timer will stop.";
 	}
 	document.getElementById("browse_timer").innerHTML = ("You have been browsing for: " + timerCount + " seconds." + chiisai);
 	timerCount++;
+}
+
+function gotoAnother(){
+	window.location.href = "another.html";
+}
+
+function gotoIndex(){
+	window.location.href = "index.html";
 }

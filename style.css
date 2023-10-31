@@ -1,12 +1,33 @@
 .footer {
 	position: fixed;
-	left: 0;
-	bottom: 0;
+	left: 0px;
+	bottom: 0px;
 	width: 100%;
 	background-color: #ADD8E6;
 	color: black;
 	text-align: center;
 	font-family: "Lucida Console", "Courier New", serif;
+}
+
+.redirectButton {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+}
+.redirectButton2 {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+}
+.redirectButton3 {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+}
+
+.yugitiki {
+	position: absolute;
+	left: 10px;
 }
 
 body {
