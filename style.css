@@ -1,13 +1,14 @@
+.footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: #ADD8E6;
+	color: black;
+	text-align: center;
+	font-family: "Lucida Console", "Courier New", serif;
+}
+
 body {
-  background-color: lightblue;
-}
-
-h1 {
-  color: white;
-  text-align: center;
-}
-
-p {
-  font-family: verdana;
-  font-size: 20px;
+	font: 30px Tahoma, Verdana, sans-serif;
 }
