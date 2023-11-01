@@ -1,0 +1,14 @@
+var entireSearchHistory = [];
+entireSearchHistory[0] = "little girls kissing";
+entireSearchHistory[1] = "little girls porn";
+entireSearchHistory[2] = "asian children sex";
+entireSearchHistory[3] = "going to southeast asia for sex";
+entireSearchHistory[4] = "nazi flag for sale";
+entireSearchHistory[5] = "nazi flag patch sale";
+entireSearchHistory[6] = "eva braun birthday";
+entireSearchHistory[7] = "how did serial killers cover up murder";
+entireSearchHistory[8] = "how to commit arson";
+entireSearchHistory[9] = "nezuko kny body pillow";
+entireSearchHistory[10] = "mitsuri kanroji hentai";
+entireSearchHistory[11] = "best loli hentai to watch";
+entireSearchHistory[12] = "naked little girls";

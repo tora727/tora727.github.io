@@ -19,3 +19,11 @@ function gotoAnother(){
 function gotoIndex(){
 	window.location.href = "index.html";
 }
+
+function gotoSearchHistory(){
+	var historyItem = [];
+	for (var i = 0; i <= 10; ++i) {
+		historyItem[i] = entireSearchHistory[(Math.floor(Math.random() * entireSearchHistory.length))];
+	}
+	alert("W-what is this!?\nI think this is your... search history!:\n\n" + (historyItem.join("\n")));
+}
