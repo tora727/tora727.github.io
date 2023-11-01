@@ -30,6 +30,16 @@
 	left: 10px;
 }
 
+.background-generic {
+	opacity: 0.2;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: auto;
+	z-index: -1;
+}
+
 body {
 	font: 30px Tahoma, Verdana, sans-serif;
 }
