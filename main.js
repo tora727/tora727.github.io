@@ -1,8 +1,25 @@
 var timerCount = 1;
 var chiisai = "";
-function startBrowseTimer() {
-    setInterval(browseTimer, 1000);
+
+function init() {
+    window.addEventListener('scroll', () => {
+        const {
+            scrollTop,
+            clientHeight,
+            scrollHeight
+        } = document.documentElement;
+        if ((scrollTop + clientHeight) >= scrollHeight) {
+            getContent((current_page + 1));
+        }
+    });
+	
+	startBrowseTimer();
 }
+
+function startBrowseTimer() {
+        setInterval(browseTimer, 1000);
+    }
+
 function browseTimer() {
     if (timerCount == 100000) {
         chiisai = "<br>You've been here for too long! Timer will stop.";

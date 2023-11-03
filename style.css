@@ -30,14 +30,26 @@
 	left: 10px;
 }
 
-.background-generic {
-	width: 100%;
-    position: absolute;
-	object-fit: cover;
-	
+.pageContainer {
+  overflow: hidden;
+  position: relative;
+}
+
+.bg {
+  opacity: 0.3;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: auto;
+}
+
+.content {
+  position: relative;
 }
 
 body, html {
 	height: 100%;
 	font: 30px Tahoma, Verdana, sans-serif;
+	z-index: 1;
 }
