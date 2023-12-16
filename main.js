@@ -40,3 +40,7 @@ function gotoSearchHistory() {
     }
     alert("W-what is this!? It's really bad!\nI think this is your... search history!:\n\n" + (historyItem.join("\n")));
 }
+
+function gotoCredits() {
+	alert("This website is an idea from Rel and Tyron.\nI love you all!\n\nCreated by yours truly,\nXian Artajo");
+}
